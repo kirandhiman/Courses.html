@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Student Learning Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Student Learning Hub</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="container">
+            <h2>Welcome to the MERN MARVEL'S INTERNEES!</h2>
+            <p>Your one-stop platform for learning new skills, improving your knowledge, and acing your academics.</p>
+        </div>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <p>Select a course below to learn more.</p>
+            <div class="courses">
+                <!-- HTML -->
+                <div class="course">
+                    
+                    <a href="https://www.w3schools.com/html/" 
+                    alt="HTML" class="course-title">HTML</a>
+                    
+                </div>
+
+                <!-- CSS -->
+                <div class="course">
+                    
+                    <a href="https://www.w3schools.com/Css/" 
+                    alt="CSS" class="course-title">CSS</a>
+                    
+                </div>
+
+                <!-- javascript -->
+                <div class="course">
+                    <a href="https://www.w3schools.com/Js/" 
+                    alt="javascript" class="course-title">javascript</a>
+                </div>
+
+                <!-- Mern Stack -->
+                <div class="course">
+                    <a href="https://www.geeksforgeeks.org/mern-stack/" 
+                    alt="Mern Stack" class="course-title">Mern Stack</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need support, feel free to contact us.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Student Learning Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
